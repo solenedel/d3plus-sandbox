@@ -11,6 +11,10 @@ About treemap charts:
 - [link](https://www.fusioncharts.com/resources/chart-primers/treemap-chart)
 - [link](https://www.anychart.com/chartopedia/chart-type/treemap/)
 
+Other libraries that can make treemaps:
+- [jq widgets](https://www.jqwidgets.com/)
+- [ag grid](https://www.ag-grid.com/react-charts/treemap-series/)
+- [AG grid](https://www.npmjs.com/package/ag-grid-react)
 
 NOTES:
 
