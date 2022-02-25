@@ -2,12 +2,9 @@ import React from "react";
 import { Treemap } from "d3plus-react";
 import { generateFakeData } from "../helpers/generateFakeData";
 
-const data = generateFakeData(10);
-console.log("DATA: ", data);
-
 const methods = {
   groupBy: "id", // groupBy determines the label on each rectangle
-  data,
+  data: generateFakeData(20), // argument = number of data points
   size: (d) => d.value,
 };
 
