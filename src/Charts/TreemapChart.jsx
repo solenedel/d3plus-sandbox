@@ -2,7 +2,7 @@ import React from "react";
 import { Treemap } from "d3plus-react";
 
 const methods = {
-  groupBy: "id",
+  groupBy: "id", // groupBy determines the label on each rectangle
   data: [
     { id: "alpha", value: 29 },
     { id: "beta", value: 10 },
@@ -16,7 +16,11 @@ const methods = {
 };
 
 const TreemapChart = () => {
-  return <Treemap config={methods} />;
+  return (
+    <div style={{ width: `70vw`, height: `300px` }}>
+      <Treemap config={methods} />
+    </div>
+  );
 };
 
 export default TreemapChart;
