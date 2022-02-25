@@ -1,11 +1,11 @@
 import React from "react";
-
+import TreemapChart from "./Charts/TreemapChart";
 
 function App() {
-
   return (
     <div className="App">
-      <h3>My react project</h3>
+      <h1>d3plus sandbox</h1>
+      <TreemapChart />
     </div>
   );
 }
