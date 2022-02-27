@@ -1,7 +1,7 @@
-test("test", () => {
-  expect(true).toBe(true);
-});
+import { generateFakeData } from "../generateFakeData";
 
-test("newtest", () => {
-  expect(false).toBe(false);
+// TEST 1: function returns an array of objects
+test("Returns an array of objects", () => {
+  const result = generateFakeData(5);
+  expect(Array.isArray(result) && typeof result[0] === "object").toBe(true);
 });

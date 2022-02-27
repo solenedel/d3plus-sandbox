@@ -1,5 +1,14 @@
 # d3plus sandbox
 
+
+## Running the project
+
+- running the front end: `npm run start-frontend`
+- running the back end: `npm run start-backend`
+- running the test suite (jest): `npm run test`
+
+
+
 Links
 - [d3plus-react npm](https://www.npmjs.com/package/d3plus-react)
 - [d3 plus github](https://github.com/d3plus)
