@@ -1,5 +1,5 @@
 import React from "react";
-import TreemapChart from "./Charts/TreemapChart";
+import TreemapChart from "./Charts/d3Treemap";
 
 function App() {
   return (
