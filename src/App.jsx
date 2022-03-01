@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1>d3plus sandbox</h1>
-      dataset size: {datasetSize}
+      dataset size:
       <Dropdown datasetSize={datasetSize} setDatasetSize={setDatasetSize} />
       <TreemapChart datasetSize={datasetSize} />
     </div>

@@ -9,6 +9,7 @@ const TreemapChart = ({ datasetSize }) => {
     data: generateFakeData(datasetSize), // argument = number of data points
     size: (d) => d.value,
   };
+
   return (
     <div style={{ width: `70vw`, height: `300px` }}>
       <Treemap config={methods} />
