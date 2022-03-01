@@ -3,11 +3,10 @@ import React from "react";
 const Dropdown = () => {
   return (
     <select>
-      Select an option
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
+      Dataset size
+      <option value="5">10 points</option>
+      <option value="20">20 points</option>
+      <option value="50">50 points</option>
     </select>
   );
 };
