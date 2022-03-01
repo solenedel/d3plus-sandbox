@@ -1,12 +1,16 @@
 import React from "react";
 
-const Dropdown = () => {
+const Dropdown = ({ setDatasetSize }) => {
+  const changeSelectedOption = (e) => {
+    setDatasetSize(Number(e.target.value));
+  };
+
   return (
-    <select>
-      Dataset size
-      <option value="5">10 points</option>
-      <option value="20">20 points</option>
-      <option value="50">50 points</option>
+    <select onChange={changeSelectedOption}>
+      Dataset size (number of data points)
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="50">50</option>
     </select>
   );
 };
