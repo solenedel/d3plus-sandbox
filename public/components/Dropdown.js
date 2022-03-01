@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const jsx_runtime_1 = require("react/jsx-runtime");
-const Dropdown = ({ setDatasetSize }) => {
+const Dropdown = ({ datasetSize }) => {
     const changeSelectedOption = (e) => {
         setDatasetSize(Number(e.target.value));
     };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dropdown = ({ setDatasetSize }) => {
+const Dropdown = ({ datasetSize }: Props) => {
   const changeSelectedOption = (e) => {
     setDatasetSize(Number(e.target.value));
   };
